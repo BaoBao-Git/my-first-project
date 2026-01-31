@@ -21,5 +21,5 @@ jobs:
         uses: google-github-actions/upload-cloud-storage@v2
         with:
           path: './' # Uploads everything in the current directory
-          destination: 'your-bucket-name-here' # Change this!
+          destination: 'my-gcp-devops-site-99' # Change this!
           parent: false # Prevents creating an extra subfolder
